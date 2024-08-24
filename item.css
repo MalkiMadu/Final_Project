@@ -1,0 +1,141 @@
+h1{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    font-size:42;
+    
+}
+nav{
+  background-color:chocolate ;
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 200px;
+  
+}
+
+td img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 100px;
+    
+}
+table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  border-bottom: 5px;
+  border-color: black;
+  
+  
+}
+td{
+  color: rgb(15, 19, 19);
+  
+}
+.r {
+  border: 1px solid black;
+  border-radius: 10px;
+  border-width: 2px;
+border-style: double;
+  
+}
+p{
+  font-size: larger;
+  font-weight: 300;
+}
+button{
+  background-color: #99a0e5;
+  color: rgb(14, 15, 15);
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 20px;
+  transition: .4s;
+  width: 100px;
+  height: 40px;
+  font-size: 12px;
+  
+}
+
+button:hover{
+ 
+  border: 2px soild #666233;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/*td:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+
+}*/
+button[type='button']:hover{
+  color: black;
+  background: rgb(54, 103, 194);
+}
+footer{
+  background-color: rgb(63, 2, 2);
+}
+.font {
+  color: white;
+  font-size:14px;
+  padding: 0px 20px;
+  
+}
+.foot{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+}
+.icon a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.icon a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+.icon a.hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+.icon a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.footnav{
+  margin: 30px 0;
+}
+.footnav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footnav ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footnav ul li a:hover{
+  opacity: 1;
+}
